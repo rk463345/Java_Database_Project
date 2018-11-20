@@ -37,7 +37,7 @@ public class Moviesdb
 		}
 		try
 		{
-		con = DriverManager.getConnection("jdbc:oracle:rkarpin1@//acadoradbprd01.dpu.depaul.edu:1521:def", "rkarpin1", "AdvanDB");
+		con = DriverManager.getConnection("", "", "");
 		state = con.createStatement();
 		}
 		catch(SQLException se)
